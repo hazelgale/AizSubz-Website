@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    height: 400px;
+    background: url(pexels-lucie-liz-3165335.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    display: flex;
+    padding: 7px 200px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);   
+}
+.logo{
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+}
+span{
+    color: orangered;
+}
+nav ul li{
+    list-style: none;
+    font-weight: 800;
+    line-height: 50px;
+    font-style: bold;
+}
+.info{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+}
+.info h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.info h3{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 70%;
+}
+.main{
+    padding: 150px;
+    text-align: center;
+    font-size: 35px;
+    justify-content: center;
+}
+footer{
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.ft-logo{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 70%;
+}
+hr{
+    size: solid black;
+}
